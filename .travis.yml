@@ -1,0 +1,17 @@
+env:
+  global:
+    - CODECLIMATE_REPO_TOKEN=1dff83d461b077670fcaf7285420e40b9e561768138b5bc8843e5e28e9ecbc77
+
+language: node_js
+node_js:
+  - "node"
+
+install:
+  - npm install
+
+script:
+  - npm run build
+  - npm test
+
+after_script:
+  - codeclimate-test-reporter < test/unit/coverage/lcov.info
