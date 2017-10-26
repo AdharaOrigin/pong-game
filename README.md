@@ -5,3 +5,6 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/de8bb6a1a0e4ec167994/test_coverage)](https://codeclimate.com/github/AdharaOrigin/pong-game/test_coverage)
 
 > Javascript implementation of classic old ping-pong game.
+
+
+Some additional stuff.
