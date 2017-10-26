@@ -7,4 +7,4 @@
 > Javascript implementation of classic old ping-pong game.
 
 
-Some additional stuff.
+Some additional stuff. And some other stuff...
